@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Graciela | Mis 15 años</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+<div id="envelopeScreen" class="envelope-screen">
+  <div class="sparkles">✦　·　✧　·　✦</div><p class="small-intro">Una invitación especial para ti</p>
+  <button id="openEnvelope" class="envelope-button" aria-label="Abrir invitación" type="button" onclick="openInvitation()">
+    <div class="envelope"><div class="flap"></div><div class="letter"><span>G</span></div><div class="front"></div></div>
+    <span class="tap-text">Toca el sobre para abrir</span>
+  </button>
+</div>
+<main id="invitation" class="invitation hidden">
+<section class="hero"><div class="ornament">❦</div><p class="eyebrow">Con mucho amor te invito a celebrar</p>
+<h1>Graciela</h1><div class="divider"><span>♡</span></div><h2>Mis 15 años</h2>
+<p class="blessing">Con la bendición de Dios<br>y mi familia.</p>
+<div class="music-box"><button id="musicBtn" class="music-btn">▶</button><div class="music-info"><strong>Iris — Goo Goo Dolls</strong><div class="music-line"><span id="musicProgress"></span></div></div><span class="music-note">♪</span></div>
+<audio id="audio" src="iris.mp3" preload="auto"></audio></section>
+<section class="details">
+<div class="detail-card"><span class="icon">♡</span><h3>Fecha</h3><p>18 de Octubre del 2026</p></div>
+<div class="detail-card"><span class="icon">◷</span><h3>Hora</h3><p>12:00 p. m.</p></div>
+<div class="detail-card"><span class="icon">⌂</span><h3>Lugar</h3><p><b>SALONES ROMA</b></p><p class="address">Pasando el grifo Las Torrecitas,<br>la primera cuadra a la izquierda.<br>Jr. María Delia cuadra 4 - Cajamarca</p>
+<a class="map-btn" href="https://maps.app.goo.gl/tH89Vq44BTtFFuzWA?g_st=awb" target="_blank">📍 Ver ubicación</a></div></section>
+<section class="countdown-section"><p class="section-label">Falta muy poquito...</p><h2>Cuenta regresiva</h2>
+<div class="countdown"><div><strong id="days">0</strong><span>días</span></div><div><strong id="hours">0</strong><span>horas</span></div><div><strong id="minutes">0</strong><span>minutos</span></div><div><strong id="seconds">0</strong><span>segundos</span></div></div></section>
+<section class="dress"><p class="section-label">Código de vestimenta</p><h2>Sport elegante</h2>
+<div class="clothes"><div><div class="clothing-icon">👗</div><span>Vestido</span></div><div><div class="clothing-icon">🤵</div><span>Traje</span></div></div>
+<p class="color-note">🌸 Reservar color <b>rosado y guinda</b></p></section>
+<section class="pass"><div class="pass-icon">🎟️</div><h2>Tu pase</h2><p>Hemos reservado</p><strong>1 pase para usted</strong></section>
+<section class="gift">
+  <div class="gift-drawing">🎁</div>
+  <h2>PRESENTES</h2>
+  <p>Tu presencia es lo más importante para mí,<br>
+  te agradezco de antemano por considerar<br>
+  hacerme un regalo.</p>
+</section>
+<section class="rsvp"><div class="ornament">❦</div><h2>¿Nos acompañas?</h2><p>Confirma tu asistencia y comparte conmigo este día tan especial.</p>
+<a class="whatsapp" href="https://wa.me/51952388205?text=Hola%20Graciela%20%F0%9F%92%97%20confirmo%20mi%20asistencia%20a%20tus%2015%20a%C3%B1os." target="_blank">💬 Confirmar asistencia</a><p class="closing">Te esperamos ♡</p></section>
+</main><script src="script.js"></script></body></html>
